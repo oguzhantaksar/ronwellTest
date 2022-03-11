@@ -1,0 +1,496 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="1.4m"
+		durationms="81208"
+		type="root"
+		rid="a3675ce2ac3a5c4"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="1"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="1"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="oguzh"
+		rxversion="10.1.6.0"
+		host="DESKTOP-S9ICS0S"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="tr-TR"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="3/11/2022 12:46:21 AM"
+		timestampiso="2022-03-10T21:46:21"
+		endtime="3/11/2022 12:47:42 AM"
+		timeoutfactor="1"
+		runid=""
+		sutversion="">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="1.3m"
+			durationms="76330"
+			type="test-suite"
+			rid="2839f4b87590a180"
+			totalerrorcount="1"
+			totalwarningcount="0"
+			totalsuccesstestcasecount="0"
+			totalfailedtestcasecount="1"
+			totalblockedtestcasecount="0"
+			childsuccesscount="0"
+			childfailedcount="1"
+			childblockedcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="0"
+			totalmaintenancemodecount="0"
+			testsuitename="Case4"
+			headertext="Case4"
+			runconfigname="TestRun"
+			runlabel="">
+			<params>
+			</params>
+			<activity
+				result="Failed"
+				duration="1.3m"
+				durationms="76274"
+				type="test-case"
+				rid="da21c8f39be430"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesstestcasecount="0"
+				totalfailedtestcasecount="1"
+				totalblockedtestcasecount="0"
+				childsuccesscount="2"
+				childfailedcount="1"
+				childblockedcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				totalmaintenancemodecount="0"
+				testcontainername="TestCase"
+				testcontainerid="a70a3136-28ee-474b-8abd-4fb5021d368b"
+				headertext="TestCase"
+				displayName="TestCase"
+				iteration="1"
+				activity-exectype="execute"
+				conditionstate="none">
+				<activity
+					result="Success"
+					duration="930ms"
+					durationms="930"
+					type="setup-container"
+					rid="f291a93e7c5830"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="1"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0">
+					<activity
+						result="Success"
+						duration="908ms"
+						durationms="908"
+						type="test-module"
+						rid="f99c6a30702b48"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="0"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0"
+						modulename="OpenBrowserProductPage"
+						displayName="OpenBrowserProductPage"
+						moduleid="f6d5d227-ab00-4956-947d-1444b4206630"
+						moduletype="Recording"
+						iteration="1"
+						activity-exectype="execute"
+						testentry-activity-type="testmodule">
+						<varbindings>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="00:00.095"
+							timeRelativeToTestModuleStartTime="00:00.016"
+							timeWallClock="00:46:26"
+							time="00:00.095"
+							level="Info"
+							category="Website">
+							<message>
+								Opening web site 'https://www.trendyol.com/maviev/12-adet-ahsap-gorunumlu-elbise-askisi-p-52122841?boutiqueId=599837&amp;merchantId=117992' with browser 'chrome' in normal mode.
+							</message>
+							<metainfo
+								itemindex="0"
+								codefile="C:\Users\oguzh\Documents\Ranorex\RanorexStudio Projects\LastTest\LastTest\OpenBrowserProductPage.cs"
+								codeline="82"
+								loglvl="Info">
+							</metainfo>
+						</item>
+					</activity>
+				</activity>
+				<activity
+					result="Failed"
+					duration="1.2m"
+					durationms="74918"
+					type="test-module"
+					rid="1d392d2856482a8e"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="Recording1"
+					displayName="Recording1"
+					moduleid="2124a63d-0300-46d5-96fb-54f44e208b3d"
+					moduletype="Recording"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<errormessage>
+						Attribute 'Class' of element for item 'LastTestRepository.Registration_Fields.Sepetim2UEruen' does not match the specified value (Failed to find item 'LastTestRepository.Registration_Fields.Sepetim2UEruen'. No element found for path '/dom[@domain='www.trendyol.com']//div[#'pb-container']//div[@innertext='Sepetim (2 Ürün)']' at step 'descendant-or-self::div[@innertext='Sepetim (2 Ürün)']' after 34 attempts within 1m.).
+					</errormessage>
+					<varbindings>
+					</varbindings>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.992"
+						timeRelativeToTestModuleStartTime="00:00.002"
+						timeWallClock="00:46:26"
+						time="00:00.992"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Registration_Fields.SepeteEkle' at 316;10.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='www.trendyol.com']//main[#'product-detail-app']/div/div[2]//button/div[@innertext='Sepete Ekle']"
+							itempath=".//main[#'product-detail-app']/div/div[2]//button/div[@innertext='Sepete Ekle']"
+							fullname="LastTestRepository.Registration_Fields.SepeteEkle"
+							id="710df0ad57344b048512aafc5f08705c"
+							timeout="60000"
+							codefile="C:\Users\oguzh\Documents\Ranorex\RanorexStudio Projects\LastTest\LastTest\Recording1.cs"
+							codeline="82"
+							itemindex="0"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:08.861"
+						timeRelativeToTestModuleStartTime="00:07.871"
+						timeWallClock="00:46:34"
+						time="00:08.861"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Down item 'Registration_Fields' at 1909;140.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='www.trendyol.com']"
+							itempath="/dom[@domain='www.trendyol.com']"
+							fullname="LastTestRepository.Registration_Fields.Self"
+							id="ed0b30b7be3d43babcc304401631b14e"
+							timeout="30000"
+							codefile="C:\Users\oguzh\Documents\Ranorex\RanorexStudio Projects\LastTest\LastTest\Recording1.cs"
+							codeline="86"
+							itemindex="1"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:09.596"
+						timeRelativeToTestModuleStartTime="00:08.606"
+						timeWallClock="00:46:35"
+						time="00:09.596"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Up item 'Registration_Fields' at 1907;273.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='www.trendyol.com']"
+							itempath="/dom[@domain='www.trendyol.com']"
+							fullname="LastTestRepository.Registration_Fields.Self"
+							id="ed0b30b7be3d43babcc304401631b14e"
+							timeout="30000"
+							codefile="C:\Users\oguzh\Documents\Ranorex\RanorexStudio Projects\LastTest\LastTest\Recording1.cs"
+							codeline="91"
+							itemindex="2"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:10.251"
+						timeRelativeToTestModuleStartTime="00:09.261"
+						timeWallClock="00:46:36"
+						time="00:10.251"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Registration_Fields.HttpsCdnDsmcdnComTy157ProductMed' at 133;178.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='www.trendyol.com']//main[#'product-detail-app']/div/aside[1]/div[2]/div/div/div/div[10]/?/?/a[@href>'https://www.trendyol.com/']/?/?/img[@src='https://cdn.dsmcdn.com/ty157/product/media/images/20210811/18/117599334/88852109/1/1_org_thumb.jpg']"
+							itempath=".//main[#'product-detail-app']/div/aside[1]/div[2]/div/div/div/div[10]/?/?/a[@href>'https://www.trendyol.com/']/?/?/img[@src='https://cdn.dsmcdn.com/ty157/product/media/images/20210811/18/117599334/88852109/1/1_org_thumb.jpg']"
+							fullname="LastTestRepository.Registration_Fields.HttpsCdnDsmcdnComTy157ProductMed"
+							id="c6e1ae843c944ae8be2cea8a4ab0abe1"
+							timeout="60000"
+							codefile="C:\Users\oguzh\Documents\Ranorex\RanorexStudio Projects\LastTest\LastTest\Recording1.cs"
+							codeline="96"
+							itemindex="3"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:11.175"
+						timeRelativeToTestModuleStartTime="00:10.185"
+						timeWallClock="00:46:37"
+						time="00:11.175"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Registration_Fields.SepeteEkle' at 192;8.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='www.trendyol.com']//main[#'product-detail-app']/div/div[2]//button/div[@innertext='Sepete Ekle']"
+							itempath=".//main[#'product-detail-app']/div/div[2]//button/div[@innertext='Sepete Ekle']"
+							fullname="LastTestRepository.Registration_Fields.SepeteEkle"
+							id="710df0ad57344b048512aafc5f08705c"
+							timeout="60000"
+							codefile="C:\Users\oguzh\Documents\Ranorex\RanorexStudio Projects\LastTest\LastTest\Recording1.cs"
+							codeline="100"
+							itemindex="4"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:13.431"
+						timeRelativeToTestModuleStartTime="00:12.441"
+						timeWallClock="00:46:39"
+						time="00:13.431"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Registration_Fields.Sepetim' at 39;3.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/div[2]/a[@href>'https://www.trendyol.com/']/p[@innertext='Sepetim']"
+							itempath=".//div[#'account-navigation-container']/div/div[2]/a[@href>'https://www.trendyol.com/']/p[@innertext='Sepetim']"
+							fullname="LastTestRepository.Registration_Fields.Sepetim"
+							id="8e334d249c0945ea841a79f198144cfe"
+							timeout="60000"
+							codefile="C:\Users\oguzh\Documents\Ranorex\RanorexStudio Projects\LastTest\LastTest\Recording1.cs"
+							codeline="104"
+							itemindex="5"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:14.796"
+						timeRelativeToTestModuleStartTime="00:13.806"
+						timeWallClock="00:46:40"
+						time="00:14.796"
+						level="Info"
+						category="Validation">
+						<message>
+							Validating AttributeEqual (Class='pb-header') on item 'Registration_Fields.Sepetim2UEruen'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='www.trendyol.com']//div[#'pb-container']//div[@innertext='Sepetim (2 Ürün)']"
+							itempath=".//div[#'pb-container']//div[@innertext='Sepetim (2 Ürün)']"
+							fullname="LastTestRepository.Registration_Fields.Sepetim2UEruen"
+							id="ecefd99aa4ba49feb6ddaee90f27d293"
+							timeout="60000"
+							codefile="C:\Users\oguzh\Documents\Ranorex\RanorexStudio Projects\LastTest\LastTest\Recording1.cs"
+							codeline="108"
+							itemindex="6"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:14.905"
+						timeRelativeToTestModuleStartTime="01:13.915"
+						timeWallClock="00:47:40"
+						time="01:14.905"
+						level="Info"
+						category="User"
+						errimg="images_Case4_20_5e1bba9b\Case4_20_5e1bba9b_e6648cfd_trace.jpg"
+						errthumb="images_Case4_20_5e1bba9b\Case4_20_5e1bba9b_e6648cfd_trace_thumb.jpg">
+						<message>
+							Item 'Sepetim2UEruen' was found using Robust path.
+						</message>
+						<metainfo
+							codefile="C:\Users\oguzh\Documents\Ranorex\RanorexStudio Projects\LastTest\LastTest\Recording1.cs"
+							codeline="109"
+							loglvl="Info"
+							itemindex="6">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:15.739"
+						timeRelativeToTestModuleStartTime="01:14.749"
+						timeWallClock="00:47:41"
+						time="01:15.739"
+						level="Failure"
+						category="Validation"
+						errimg="images_Case4_20_5e1bba9b\Case4_20_5e1bba9b_8a48979e_trace.jpg"
+						errthumb="images_Case4_20_5e1bba9b\Case4_20_5e1bba9b_8a48979e_trace_thumb.jpg">
+						<message>
+							Attribute 'Class' of element for item 'LastTestRepository.Registration_Fields.Sepetim2UEruen' does not match the specified value (Failed to find item 'LastTestRepository.Registration_Fields.Sepetim2UEruen'. No element found for path '/dom[@domain='www.trendyol.com']//div[#'pb-container']//div[@innertext='Sepetim (2 Ürün)']' at step 'descendant-or-self::div[@innertext='Sepetim (2 Ürün)']' after 34 attempts within 1m.).
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='www.trendyol.com']//div[#'pb-container']//div[@innertext='Sepetim (2 Ürün)']"
+							itempath=".//div[#'pb-container']//div[@innertext='Sepetim (2 Ürün)']"
+							fullname="LastTestRepository.Registration_Fields.Sepetim2UEruen"
+							id="ecefd99aa4ba49feb6ddaee90f27d293"
+							timeout="60000"
+							codefile="C:\Users\oguzh\Documents\Ranorex\RanorexStudio Projects\LastTest\LastTest\Recording1.cs"
+							codeline="109"
+							failedStep="descendant-or-self::div[@innertext='Sepetim (2 Ürün)']"
+							bestPathPrefix="/dom[@domain='www.trendyol.com']/descendant-or-self::div[#'pb-container']"
+							loglvl="Failure"
+							itemindex="6">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:15.787"
+						timeRelativeToTestModuleStartTime="01:14.797"
+						timeWallClock="00:47:41"
+						time="01:15.787"
+						level="Error"
+						category="Module"
+						errimg="images_Case4_20_5e1bba9b\Case4_20_5e1bba9b_9f96ffd5_trace.jpg"
+						errthumb="images_Case4_20_5e1bba9b\Case4_20_5e1bba9b_9f96ffd5_trace_thumb.jpg">
+						<message>
+							Module execution was aborted because a validation step has failed. Attribute 'Class' of element for item 'LastTestRepository.Registration_Fields.Sepetim2UEruen' does not match the specified value (Failed to find item 'LastTestRepository.Registration_Fields.Sepetim2UEruen'. No element found for path '/dom[@domain='www.trendyol.com']//div[#'pb-container']//div[@innertext='Sepetim (2 Ürün)']' at step 'descendant-or-self::div[@innertext='Sepetim (2 Ürün)']' after 34 attempts within 1m.).<br/>Failed to find item 'LastTestRepository.Registration_Fields.Sepetim2UEruen'.<br/>No element found for path '/dom[@domain='www.trendyol.com']//div[#'pb-container']//div[@innertext='Sepetim (2 Ürün)']' at step 'descendant-or-self::div[@innertext='Sepetim (2 Ürün)']' after 34 attempts within 1m.
+						</message>
+						<metainfo
+							stacktrace="   at Ranorex.Validate.ThrowValidationException(RepoItemInfo itemInfo, ValidationException ex)
+   at Ranorex.Validate.IsTrueInternal(Boolean condition, String message, Options options, RepoItemInfo itemInfo, RanorexException innerException)
+   at Ranorex.Validate.AttributeEqualInternal(RepoItemInfo itemInfo, String name, Object value, String message, Options options)
+   at Ranorex.Validate.AttributeEqual(RepoItemInfo itemInfo, String name, Object value, String message, Options options)
+   at Ranorex.Validate.AttributeEqual(RepoItemInfo itemInfo, String name, Object value)
+   at LastTest.Recording1.Ranorex.Core.Testing.ITestModule.Run() in C:\Users\oguzh\Documents\Ranorex\RanorexStudio Projects\LastTest\LastTest\Recording1.cs:line 109
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+							codefile="C:\Users\oguzh\Documents\Ranorex\RanorexStudio Projects\LastTest\LastTest\Recording1.cs"
+							codeline="109"
+							type="repoitem"
+							path="/dom[@domain='www.trendyol.com']//div[#'pb-container']//div[@innertext='Sepetim (2 Ürün)']"
+							itempath=".//div[#'pb-container']//div[@innertext='Sepetim (2 Ürün)']"
+							fullname="LastTestRepository.Registration_Fields.Sepetim2UEruen"
+							id="ecefd99aa4ba49feb6ddaee90f27d293"
+							timeout="60000"
+							loglvl="Error"
+							itemindex="6">
+						</metainfo>
+					</item>
+				</activity>
+				<activity
+					result="Success"
+					duration="416ms"
+					durationms="416"
+					type="teardown-container"
+					rid="22050053ea4d8aee"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="1"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0">
+					<activity
+						result="Success"
+						duration="415ms"
+						durationms="415"
+						type="test-module"
+						rid="33a8d5ae01d44b1"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="0"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0"
+						modulename="CloseBrowserProductPage"
+						displayName="CloseBrowserProductPage"
+						moduleid="b7a98670-c4aa-41ec-b991-f1e187c0fb36"
+						moduletype="Recording"
+						iteration="1"
+						activity-exectype="execute"
+						testentry-activity-type="testmodule">
+						<varbindings>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="01:15.925"
+							timeRelativeToTestModuleStartTime="00:00.014"
+							timeWallClock="00:47:41"
+							time="01:15.925"
+							level="Info"
+							category="Application">
+							<message>
+								Closing application containing item 'Registration_Fields'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='www.trendyol.com']"
+								itempath="/dom[@domain='www.trendyol.com']"
+								fullname="LastTestRepository.Registration_Fields.Self"
+								id="ed0b30b7be3d43babcc304401631b14e"
+								timeout="30000"
+								codefile="C:\Users\oguzh\Documents\Ranorex\RanorexStudio Projects\LastTest\LastTest\CloseBrowserProductPage.cs"
+								codeline="82"
+								itemindex="0"
+								loglvl="Info">
+							</metainfo>
+						</item>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

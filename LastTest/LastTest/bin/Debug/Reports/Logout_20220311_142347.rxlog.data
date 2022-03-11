@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="29.89s"
+		durationms="29890"
+		type="root"
+		rid="12a534d368256ad2"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="oguzh"
+		rxversion="10.1.6.0"
+		host="DESKTOP-S9ICS0S"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="tr-TR"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="3/11/2022 2:23:49 PM"
+		timestampiso="2022-03-11T11:23:49"
+		endtime="3/11/2022 2:24:19 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Logout">
+		<detail>
+			Logout
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.016"
+			timeRelativeToTestModuleStartTime="00:05.016"
+			timeWallClock="14:23:54"
+			time="00:05.016"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 500ms.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="C:\Users\oguzh\Documents\Ranorex\RanorexStudio Projects\LastTest\LastTest\Logout.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.531"
+			timeRelativeToTestModuleStartTime="00:05.531"
+			timeWallClock="14:23:54"
+			time="00:05.531"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse None Move item 'Trendyol.AccountNavItemUserLoginContainer.Hesabım' at 27;3.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/div[1]/?/?/p[@innertext='Hesabım']"
+				itempath="?/?/p[@innertext='Hesabım']"
+				fullname="LastTestRepository.Trendyol.AccountNavItemUserLoginContainer.Hesabım"
+				id="02601e55a0154bbebd04a6cb5c7e7ddd"
+				timeout="90000"
+				codefile="C:\Users\oguzh\Documents\Ranorex\RanorexStudio Projects\LastTest\LastTest\Logout.cs"
+				codeline="85"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:29.887"
+			timeRelativeToTestModuleStartTime="00:29.887"
+			timeWallClock="14:24:19"
+			time="00:29.887"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

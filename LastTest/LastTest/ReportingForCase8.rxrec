@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="0b7f6f1c-0f9b-4b2b-86f7-15505280d349"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="ReportingForCase8"
+	namespace="LastTest">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<loggingrecorditem
+		category="User"
+		enabled="True"
+		message="• İade adımları:&#13;&#10;&#13;&#10;1. trendyol.com ve mobil uygulamalarda yer alan &quot;Hesabım&quot; bölümünden “Siparişlerim'e“ gidin.&#13;&#10;&#13;&#10;2. “Detaylar” butonuna basın ve siparişinizin detaylarını görüntüleyin.&#13;&#10;&#13;&#10;3. &quot;Kolay İade Talebi Oluştur&quot; butonuna basın.&#13;&#10;&#13;&#10;4. İade edilecek ürün ve iade nedeni seçin. Aynı üründen birden fazla satın aldıysanız iade edilecek ürün adedini de seçmeniz gerekir.&#13;&#10;&#13;&#10;5. Kargo seçiminizi yapın.&#13;&#10;&#13;&#10;6. Ekranda çıkan iade kargo kodunu not alın. İade kargo kodunuza &quot;Siparişlerim&quot; sayfasından ve üyelik mail adresinize gönderilen bilgilendirme mesajından da ulaşabilirsiniz.&#13;&#10;&#13;&#10;7. İade edilecek ürünler ile birlikte faturayı tek bir pakete koyun. (Her bir teslimat için iade kodu ayrı ayrı alınmalı ve paketler ayrı ayrı hazırlanarak kargoya verilmelidir.)&#13;&#10;&#13;&#10;• Faturanız yoksa aşağıdaki bilgileri boş bir kağıda yazıp iade paketinin içine koyup iadenizi yapabilirsiniz.&#13;&#10;&#13;&#10;o Ad Soyad:&#13;&#10;&#13;&#10;o Sipariş No:&#13;&#10;&#13;&#10;o İade Nedeni:&#13;&#10;&#13;&#10;8. Paketi iade kargo koduyla birlikte seçtiğiniz kargoya 7 gün içinde teslim edin. Kodu vermeniz yeterlidir, ayrıca bir İade adresi belirtmeniz gerekmez. 7 günü geçirdiğiniz durumda yeniden iade kargo kodu almalısınız."
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="2e939a06-cd8f-4052-a5f7-95988305f23a">
+			<comment>
+				It reports the first question's answer in Trendyol Help section ( https://www.trendyol.com/yardim/sorular )
+			</comment>
+			<bindings>
+			</bindings>
+		</loggingrecorditem>
+	</recorditems>
+	<repository
+	id="481039a9-a1c5-4c5c-a6b8-d5e0858e1a63"
+	name="LastTestRepository"
+	relativepath="LastTestRepository.rxrep">
+		<codegen
+		classname="LastTestRepository"
+		namespace="LastTest">
+		</codegen>
+		<rootfolder
+		id="96429a15-ec2e-46ea-af76-8f2bd400db6a"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		ReportingForCase8.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="73f1806f-5725-46f6-9647-6196907b14bc"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="OpenCartPage"
+	namespace="LastTest">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<openwebsiterecorditem
+		args=""
+		browser="chrome"
+		clearcache="False"
+		clearcodecache="False"
+		clearcookies="False"
+		clearserviceworker="False"
+		enabled="True"
+		incognito="False"
+		instrument="True"
+		killexisting="False"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<url>
+				https://www.trendyol.com/sepet
+			</url>
+		</openwebsiterecorditem>
+	</recorditems>
+	<repository
+	id="481039a9-a1c5-4c5c-a6b8-d5e0858e1a63"
+	name="LastTestRepository"
+	relativepath="LastTestRepository.rxrep">
+		<codegen
+		classname="LastTestRepository"
+		namespace="LastTest">
+		</codegen>
+		<rootfolder
+		id="96429a15-ec2e-46ea-af76-8f2bd400db6a"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		OpenCartPage.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

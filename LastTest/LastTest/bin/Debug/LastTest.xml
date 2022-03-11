@@ -1,0 +1,918 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LastTest</name>
+    </assembly>
+    <members>
+        <member name="T:LastTest.Buy">
+             <summary>
+            The Buy recording.
+             </summary>
+        </member>
+        <member name="F:LastTest.Buy.repo">
+            <summary>
+            Holds an instance of the LastTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:LastTest.Buy.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:LastTest.Buy.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:LastTest.Buy.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:LastTest.Buy.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:LastTest.Buy.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:LastTest.Buy.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:LastTest.CloseBrowser">
+             <summary>
+            The CloseBrowser recording.
+             </summary>
+        </member>
+        <member name="F:LastTest.CloseBrowser.repo">
+            <summary>
+            Holds an instance of the LastTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:LastTest.CloseBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:LastTest.CloseBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:LastTest.CloseBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:LastTest.CloseBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:LastTest.CloseBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:LastTest.CloseBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:LastTest.Logout">
+             <summary>
+            The Logout recording.
+             </summary>
+        </member>
+        <member name="F:LastTest.Logout.repo">
+            <summary>
+            Holds an instance of the LastTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:LastTest.Logout.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:LastTest.Logout.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:LastTest.Logout.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:LastTest.Logout.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:LastTest.Logout.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:LastTest.Logout.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:LastTest.OpenCartPage">
+             <summary>
+            The OpenCartPage recording.
+             </summary>
+        </member>
+        <member name="F:LastTest.OpenCartPage.repo">
+            <summary>
+            Holds an instance of the LastTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:LastTest.OpenCartPage.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:LastTest.OpenCartPage.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:LastTest.OpenCartPage.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:LastTest.OpenCartPage.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:LastTest.OpenCartPage.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:LastTest.OpenCartPage.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:LastTest.AddToCart">
+             <summary>
+            The AddToCart recording.
+             </summary>
+        </member>
+        <member name="F:LastTest.AddToCart.repo">
+            <summary>
+            Holds an instance of the LastTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:LastTest.AddToCart.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:LastTest.AddToCart.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:LastTest.AddToCart.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:LastTest.AddToCart.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:LastTest.AddToCart.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:LastTest.AddToCart.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:LastTest.LastTestRepository">
+            <summary>
+            The class representing the LastTestRepository element repository.
+            </summary>
+        </member>
+        <member name="P:LastTest.LastTestRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the LastTestRepository element repository.
+            </summary>
+        </member>
+        <member name="M:LastTest.LastTestRepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:LastTest.LastTestRepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:LastTest.LastTestRepository.Trendyol">
+            <summary>
+            The Trendyol folder.
+            </summary>
+        </member>
+        <member name="T:LastTest.LastTestRepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:LastTest.LastTestRepositoryFolders.TrendyolAppFolder">
+            <summary>
+            The TrendyolAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:LastTest.LastTestRepositoryFolders.TrendyolAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Trendyol  folder.
+            </summary>
+        </member>
+        <member name="P:LastTest.LastTestRepositoryFolders.TrendyolAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:LastTest.LastTestRepositoryFolders.TrendyolAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:LastTest.LastTestRepositoryFolders.TrendyolAppFolder.AllFieldsInRegistrationPage">
+            <summary>
+            The AllFieldsInRegistrationPage item.
+            </summary>
+        </member>
+        <member name="P:LastTest.LastTestRepositoryFolders.TrendyolAppFolder.AllFieldsInRegistrationPageInfo">
+            <summary>
+            The AllFieldsInRegistrationPage item info.
+            </summary>
+        </member>
+        <member name="P:LastTest.LastTestRepositoryFolders.TrendyolAppFolder.RegisterEmailInput">
+            <summary>
+            The RegisterEmailInput item.
+            </summary>
+        </member>
+        <member name="P:LastTest.LastTestRepositoryFolders.TrendyolAppFolder.RegisterEmailInputInfo">
+            <summary>
+            The RegisterEmailInput item info.
+            </summary>
+        </member>
+        <member name="P:LastTest.LastTestRepositoryFolders.TrendyolAppFolder.RegisterPasswordInput">
+            <summary>
+            The RegisterPasswordInput item.
+            </summary>
+        </member>
+        <member name="P:LastTest.LastTestRepositoryFolders.TrendyolAppFolder.RegisterPasswordInputInfo">
+            <summary>
+            The RegisterPasswordInput item info.
+            </summary>
+        </member>
+        <member name="P:LastTest.LastTestRepositoryFolders.TrendyolAppFolder.EmptyCheckbox">
+            <summary>
+            The EmptyCheckbox item.
+            </summary>
+        </member>
+        <member name="P:LastTest.LastTestRepositoryFolders.TrendyolAppFolder.EmptyCheckboxInfo">
+            <summary>
+            The EmptyCheckbox item info.
+            </summary>
+        </member>
+        <member name="P:LastTest.LastTestRepositoryFolders.TrendyolAppFolder.SubmitButton">
+            <summary>
+            The SubmitButton item.
+            </summary>
+        </member>
+        <member name="P:LastTest.LastTestRepositoryFolders.TrendyolAppFolder.SubmitButtonInfo">
+            <summary>
+            The SubmitButton item info.
+            </summary>
+        </member>
+        <member name="P:LastTest.LastTestRepositoryFolders.TrendyolAppFolder.ValidationError">
+            <summary>
+            The ValidationError item.
+            </summary>
+        </member>
+        <member name="P:LastTest.LastTestRepositoryFolders.TrendyolAppFolder.ValidationErrorInfo">
+            <summary>
+            The ValidationError item info.
+            </summary>
+        </member>
+        <member name="P:LastTest.LastTestRepositoryFolders.TrendyolAppFolder.AddToCart">
+            <summary>
+            The AddToCart item.
+            </summary>
+        </member>
+        <member name="P:LastTest.LastTestRepositoryFolders.TrendyolAppFolder.AddToCartInfo">
+            <summary>
+            The AddToCart item info.
+            </summary>
+        </member>
+        <member name="P:LastTest.LastTestRepositoryFolders.TrendyolAppFolder.Product2">
+            <summary>
+            The Product2 item.
+            </summary>
+        </member>
+        <member name="P:LastTest.LastTestRepositoryFolders.TrendyolAppFolder.Product2Info">
+            <summary>
+            The Product2 item info.
+            </summary>
+        </member>
+        <member name="P:LastTest.LastTestRepositoryFolders.TrendyolAppFolder.AddedToCart">
+            <summary>
+            The AddedToCart item.
+            </summary>
+        </member>
+        <member name="P:LastTest.LastTestRepositoryFolders.TrendyolAppFolder.AddedToCartInfo">
+            <summary>
+            The AddedToCart item info.
+            </summary>
+        </member>
+        <member name="P:LastTest.LastTestRepositoryFolders.TrendyolAppFolder.ButtonFav1">
+            <summary>
+            The ButtonFav1 item.
+            </summary>
+        </member>
+        <member name="P:LastTest.LastTestRepositoryFolders.TrendyolAppFolder.ButtonFav1Info">
+            <summary>
+            The ButtonFav1 item info.
+            </summary>
+        </member>
+        <member name="P:LastTest.LastTestRepositoryFolders.TrendyolAppFolder.Wishlist">
+            <summary>
+            The Wishlist item.
+            </summary>
+        </member>
+        <member name="P:LastTest.LastTestRepositoryFolders.TrendyolAppFolder.WishlistInfo">
+            <summary>
+            The Wishlist item info.
+            </summary>
+        </member>
+        <member name="P:LastTest.LastTestRepositoryFolders.TrendyolAppFolder.AddedToWishlist">
+            <summary>
+            The AddedToWishlist item.
+            </summary>
+        </member>
+        <member name="P:LastTest.LastTestRepositoryFolders.TrendyolAppFolder.AddedToWishlistInfo">
+            <summary>
+            The AddedToWishlist item info.
+            </summary>
+        </member>
+        <member name="P:LastTest.LastTestRepositoryFolders.TrendyolAppFolder.PAddAddressBoxTyPFlexCenter">
+            <summary>
+            The PAddAddressBoxTyPFlexCenter item.
+            </summary>
+        </member>
+        <member name="P:LastTest.LastTestRepositoryFolders.TrendyolAppFolder.PAddAddressBoxTyPFlexCenterInfo">
+            <summary>
+            The PAddAddressBoxTyPFlexCenter item info.
+            </summary>
+        </member>
+        <member name="P:LastTest.LastTestRepositoryFolders.TrendyolAppFolder.SepetiOnayla">
+            <summary>
+            The SepetiOnayla item.
+            </summary>
+        </member>
+        <member name="P:LastTest.LastTestRepositoryFolders.TrendyolAppFolder.SepetiOnaylaInfo">
+            <summary>
+            The SepetiOnayla item info.
+            </summary>
+        </member>
+        <member name="P:LastTest.LastTestRepositoryFolders.TrendyolAppFolder.ContinueToBuy">
+            <summary>
+            The ContinueToBuy item.
+            </summary>
+        </member>
+        <member name="P:LastTest.LastTestRepositoryFolders.TrendyolAppFolder.ContinueToBuyInfo">
+            <summary>
+            The ContinueToBuy item info.
+            </summary>
+        </member>
+        <member name="P:LastTest.LastTestRepositoryFolders.TrendyolAppFolder.Header">
+            <summary>
+            The Header item.
+            </summary>
+        </member>
+        <member name="P:LastTest.LastTestRepositoryFolders.TrendyolAppFolder.HeaderInfo">
+            <summary>
+            The Header item info.
+            </summary>
+        </member>
+        <member name="P:LastTest.LastTestRepositoryFolders.TrendyolAppFolder.Container">
+            <summary>
+            The Container item.
+            </summary>
+        </member>
+        <member name="P:LastTest.LastTestRepositoryFolders.TrendyolAppFolder.ContainerInfo">
+            <summary>
+            The Container item info.
+            </summary>
+        </member>
+        <member name="P:LastTest.LastTestRepositoryFolders.TrendyolAppFolder.Buy">
+            <summary>
+            The Buy item.
+            </summary>
+        </member>
+        <member name="P:LastTest.LastTestRepositoryFolders.TrendyolAppFolder.BuyInfo">
+            <summary>
+            The Buy item info.
+            </summary>
+        </member>
+        <member name="P:LastTest.LastTestRepositoryFolders.TrendyolAppFolder.Wishlist_buttons">
+            <summary>
+            The Wishlist_buttons folder.
+            </summary>
+        </member>
+        <member name="P:LastTest.LastTestRepositoryFolders.TrendyolAppFolder.MyAccountContainer">
+            <summary>
+            The MyAccountContainer folder.
+            </summary>
+        </member>
+        <member name="T:LastTest.LastTestRepositoryFolders.Wishlist_buttonsFolder">
+            <summary>
+            The Wishlist_buttonsFolder folder.
+            </summary>
+        </member>
+        <member name="M:LastTest.LastTestRepositoryFolders.Wishlist_buttonsFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Wishlist_buttons  folder.
+            </summary>
+        </member>
+        <member name="P:LastTest.LastTestRepositoryFolders.Wishlist_buttonsFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:LastTest.LastTestRepositoryFolders.Wishlist_buttonsFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:LastTest.LastTestRepositoryFolders.Wishlist_buttonsFolder.IHeartOrange">
+            <summary>
+            The IHeartOrange item.
+            </summary>
+        </member>
+        <member name="P:LastTest.LastTestRepositoryFolders.Wishlist_buttonsFolder.IHeartOrangeInfo">
+            <summary>
+            The IHeartOrange item info.
+            </summary>
+        </member>
+        <member name="P:LastTest.LastTestRepositoryFolders.Wishlist_buttonsFolder.ButtonFav2">
+            <summary>
+            The ButtonFav2 item.
+            </summary>
+        </member>
+        <member name="P:LastTest.LastTestRepositoryFolders.Wishlist_buttonsFolder.ButtonFav2Info">
+            <summary>
+            The ButtonFav2 item info.
+            </summary>
+        </member>
+        <member name="P:LastTest.LastTestRepositoryFolders.Wishlist_buttonsFolder.ButtonFav3">
+            <summary>
+            The ButtonFav3 item.
+            </summary>
+        </member>
+        <member name="P:LastTest.LastTestRepositoryFolders.Wishlist_buttonsFolder.ButtonFav3Info">
+            <summary>
+            The ButtonFav3 item info.
+            </summary>
+        </member>
+        <member name="P:LastTest.LastTestRepositoryFolders.Wishlist_buttonsFolder.ButtonFav4">
+            <summary>
+            The ButtonFav4 item.
+            </summary>
+        </member>
+        <member name="P:LastTest.LastTestRepositoryFolders.Wishlist_buttonsFolder.ButtonFav4Info">
+            <summary>
+            The ButtonFav4 item info.
+            </summary>
+        </member>
+        <member name="T:LastTest.LastTestRepositoryFolders.MyAccountContainerFolder">
+            <summary>
+            The MyAccountContainerFolder folder.
+            </summary>
+        </member>
+        <member name="M:LastTest.LastTestRepositoryFolders.MyAccountContainerFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new MyAccountContainer  folder.
+            </summary>
+        </member>
+        <member name="P:LastTest.LastTestRepositoryFolders.MyAccountContainerFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:LastTest.LastTestRepositoryFolders.MyAccountContainerFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:LastTest.LastTestRepositoryFolders.MyAccountContainerFolder.Login">
+            <summary>
+            The Login item.
+            </summary>
+        </member>
+        <member name="P:LastTest.LastTestRepositoryFolders.MyAccountContainerFolder.LoginInfo">
+            <summary>
+            The Login item info.
+            </summary>
+        </member>
+        <member name="P:LastTest.LastTestRepositoryFolders.MyAccountContainerFolder.MyAccount">
+            <summary>
+            The MyAccount item.
+            </summary>
+        </member>
+        <member name="P:LastTest.LastTestRepositoryFolders.MyAccountContainerFolder.MyAccountInfo">
+            <summary>
+            The MyAccount item info.
+            </summary>
+        </member>
+        <member name="P:LastTest.LastTestRepositoryFolders.MyAccountContainerFolder.Logout">
+            <summary>
+            The Logout item.
+            </summary>
+        </member>
+        <member name="P:LastTest.LastTestRepositoryFolders.MyAccountContainerFolder.LogoutInfo">
+            <summary>
+            The Logout item info.
+            </summary>
+        </member>
+        <member name="T:LastTest.OpenBrowserProductPage">
+             <summary>
+            The OpenBrowserProductPage recording.
+             </summary>
+        </member>
+        <member name="F:LastTest.OpenBrowserProductPage.repo">
+            <summary>
+            Holds an instance of the LastTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:LastTest.OpenBrowserProductPage.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:LastTest.OpenBrowserProductPage.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:LastTest.OpenBrowserProductPage.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:LastTest.OpenBrowserProductPage.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:LastTest.OpenBrowserProductPage.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:LastTest.OpenBrowserProductPage.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:LastTest.OpenHelpSection">
+             <summary>
+            The OpenHelpSection recording.
+             </summary>
+        </member>
+        <member name="F:LastTest.OpenHelpSection.repo">
+            <summary>
+            Holds an instance of the LastTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:LastTest.OpenHelpSection.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:LastTest.OpenHelpSection.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:LastTest.OpenHelpSection.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:LastTest.OpenHelpSection.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:LastTest.OpenHelpSection.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:LastTest.OpenHelpSection.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:LastTest.OpenRegistrationPage">
+             <summary>
+            The OpenRegistrationPage recording.
+             </summary>
+        </member>
+        <member name="F:LastTest.OpenRegistrationPage.repo">
+            <summary>
+            Holds an instance of the LastTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:LastTest.OpenRegistrationPage.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:LastTest.OpenRegistrationPage.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:LastTest.OpenRegistrationPage.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:LastTest.OpenRegistrationPage.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:LastTest.OpenRegistrationPage.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:LastTest.OpenRegistrationPage.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:LastTest.AddToWishlist">
+             <summary>
+            The AddToWishlist recording.
+             </summary>
+        </member>
+        <member name="F:LastTest.AddToWishlist.repo">
+            <summary>
+            Holds an instance of the LastTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:LastTest.AddToWishlist.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:LastTest.AddToWishlist.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:LastTest.AddToWishlist.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:LastTest.AddToWishlist.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:LastTest.AddToWishlist.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:LastTest.AddToWishlist.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:LastTest.OpenMainPage">
+             <summary>
+            The OpenMainPage recording.
+             </summary>
+        </member>
+        <member name="F:LastTest.OpenMainPage.repo">
+            <summary>
+            Holds an instance of the LastTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:LastTest.OpenMainPage.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:LastTest.OpenMainPage.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:LastTest.OpenMainPage.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:LastTest.OpenMainPage.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:LastTest.OpenMainPage.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:LastTest.OpenMainPage.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:LastTest.Exists">
+             <summary>
+            The Exists recording.
+             </summary>
+        </member>
+        <member name="F:LastTest.Exists.repo">
+            <summary>
+            Holds an instance of the LastTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:LastTest.Exists.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:LastTest.Exists.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:LastTest.Exists.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:LastTest.Exists.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:LastTest.Exists.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:LastTest.Exists.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:LastTest.DontFill">
+             <summary>
+            The DontFill recording.
+             </summary>
+        </member>
+        <member name="F:LastTest.DontFill.repo">
+            <summary>
+            Holds an instance of the LastTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:LastTest.DontFill.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:LastTest.DontFill.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:LastTest.DontFill.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:LastTest.DontFill.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:LastTest.DontFill.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:LastTest.DontFill.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:LastTest.EnterBlankSpaces">
+             <summary>
+            The EnterBlankSpaces recording.
+             </summary>
+        </member>
+        <member name="F:LastTest.EnterBlankSpaces.repo">
+            <summary>
+            Holds an instance of the LastTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:LastTest.EnterBlankSpaces.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:LastTest.EnterBlankSpaces.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:LastTest.EnterBlankSpaces.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:LastTest.EnterBlankSpaces.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:LastTest.EnterBlankSpaces.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:LastTest.EnterBlankSpaces.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:LastTest.ReportingForCase8">
+             <summary>
+            The ReportingForCase8 recording.
+             </summary>
+        </member>
+        <member name="F:LastTest.ReportingForCase8.repo">
+            <summary>
+            Holds an instance of the LastTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:LastTest.ReportingForCase8.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:LastTest.ReportingForCase8.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:LastTest.ReportingForCase8.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:LastTest.ReportingForCase8.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:LastTest.ReportingForCase8.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:LastTest.ReportingForCase8.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>
