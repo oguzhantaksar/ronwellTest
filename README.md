@@ -1,5 +1,5 @@
 # ronwellTest
-Test for Ronwell ( LastFolder is the solution )
+Test for Ronwell ( LastTest folder is the solution )
 
 All 8 Cases are tested in separate Test Suites. Since there was no specific details in tasks, all cases are done with 1 specific scenario ( Only 1 TestCase ). All tests are made with only Chrome. ( No cross browser testing included.) 
 
